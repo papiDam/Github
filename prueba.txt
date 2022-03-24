@@ -42,4 +42,9 @@ Git paso a paso:
     - git push "url repositorio del que vamos a crear una rama"
 8.5 Eliminar rama:
     - git branch -d/-d "rama"
-    
+9. Para unir ramas:
+9.1 Si solo se ha hecho modificacion en la rama "hijo" podemos usar:
+    -git merge "rama destino"
+9.2 Si se han hecho modificaciones en las ramas "padre" e "hijo" copiamos
+    la info del "hijo" en el "padre" y despues eliminamos el "hijo".
+    - git fetch "url de la rama que queremos copiar en la actual"
