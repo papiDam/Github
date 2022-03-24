@@ -38,3 +38,8 @@ Git paso a paso:
     - git branch "nombre"
 8.3 Para movernos entre ramas:
     -git checkout "nombreRama"
+8.4 Para push una rama nueva:
+    - git push "url repositorio del que vamos a crear una rama"
+8.5 Eliminar rama:
+    - git branch -d/-d "rama"
+    
